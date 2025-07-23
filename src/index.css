@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+@import "tailwindcss";
+
+p span{
+    color: orangered;
+    font-weight: 500;
+}
+
+.active{
+    background-color: orangered;
+}
+
+=======
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +79,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+>>>>>>> 21876939a92dd38b1e8a883d65f2b6b42d330217
