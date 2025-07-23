@@ -1,5 +1,5 @@
-import { useDispatch, useSelector } from "react-redux"
-import { Navigate, useNavigate } from "react-router-dom"
+import { useDispatch } from "react-redux"
+import {  useNavigate } from "react-router-dom"
 import { login } from "../redux/authSlice"
 import { useState } from "react"
 
@@ -15,7 +15,7 @@ const Login=()=>{
 
     const dispatch=useDispatch()
     const navigate=useNavigate()
-    const{isauthenticated,user}= useSelector(state=>state.auth)
+    
     
     
 

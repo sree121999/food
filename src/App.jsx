@@ -1,20 +1,29 @@
 import Loginpage from "./pages/Loginpage";
 import Router from "./routes/Router";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { useEffect } from "react"
+
 
 
 const App = () => {
+    useEffect(() => {
+  document.title = "food-delivery"
+}, [])
+    
+
+
+
   return (
     <>
-   <HelmetProvider>
-    <Helmet>
-      <title>Food Delivery</title>
-    </Helmet>
+ 
+   
       
       <Router />
-      </HelmetProvider>
+      
     </>
   )
 }
 
 export default App;
+
+
+

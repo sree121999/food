@@ -1,7 +1,7 @@
 import { Navigate, useNavigate } from "react-router-dom"
 
 
-const Adddish=({})=>{
+const Adddish=()=>{
     const navigate=useNavigate()
     const handler=()=>{
         navigate ('/Addform')
