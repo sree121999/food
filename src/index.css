@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+p span{
+    color: orangered;
+    font-weight: 500;
+}
+
+.active{
+    background-color: orangered;
+}
+

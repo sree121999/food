@@ -1,0 +1,105 @@
+{
+  "foodItems": [
+    {
+      "id":1,
+      "name": "Chicken Biriyani",
+      "description": "Aromatic basmati rice cooked with tender chicken and spices.",
+      "price": 180,
+      "category": "Main Course",
+      "rating": 4.5,
+      "imageUrl": "https://static.vecteezy.com/system/resources/thumbnails/048/067/082/small_2x/biryani-dish-malabar-biryani-with-thalassery-chicken-isolated-illustration-on-a-transparent-background-png.png",
+      "available": true,
+      "stock":25
+    },
+    {
+      "id": 2,
+      "name": "Paneer Butter Masala",
+      "description": "Cottage cheese cubes cooked in creamy tomato gravy.",
+      "price": 150,
+      "category": "Vegetarian",
+      "rating": 4.2,
+      "imageUrl":"https://www.shutterstock.com/image-photo/indian-paneer-butter-masala-curry-600nw-2499932035.jpg",
+      "available": true,
+      "stock":15
+    },
+{
+      "id": 3,
+      "name": "Masala Dosa",
+      "description": "Crispy dosa stuffed with spicy potato filling.",
+      "price": 70,
+      "category": "South Indian",
+      "rating": 4.0,
+      "imageUrl":"https://img.freepik.com/premium-photo/spicy-south-indian-dosa-white-background-masala-dosa-image_1020697-133617.jpg" ,
+      "available": true,
+      "stock":22
+    },
+ {
+      "id": 4,
+      "name": "Veg Burger",
+      "description": "Burger with fresh veggies and crispy patty.",
+      "price": 90,
+      "category": "Snacks",
+      "rating": 3.8,
+      "imageUrl":"https://media.istockphoto.com/id/1141364254/photo/healthy-vegan-burger-with-grilled-tofu-cheese-and-vegetables-on-white-background.jpg?s=612x612&w=0&k=20&c=7xSVAIUUhRbvm9qbCZ9XyjBzH16P-JUE8aQ-KI84jCE=" ,
+      "available": false,
+      "stock":35
+    },
+    {
+      "id": 5,
+      "name": "Gulab Jamun",
+      "description": "Soft fried balls soaked in sugar syrup.",
+      "price": 50,
+      "category": "Dessert",
+      "rating": 4.6,
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/026/516/520/non_2x/delicious-gulab-jamun-isolated-on-white-background-free-photo.jpg",
+      "available": true,
+      "stock":50
+    },
+     {
+      "id": 6,
+      "name": "Fish Curry Meals",
+      "description": "Kerala style fish curry with rice and side dishes.",
+      "price": 200,
+      "category": "Main Course",
+      "rating": 4.4,
+      "imageUrl": "https://img.freepik.com/premium-photo/fish-curry-sri-lankan-dish-white-plate-white-background-directly-view_864588-12802.jpg?w=360",
+      "available": true,
+      "stock":10
+    },
+{
+      "id": 7,
+      "name": "Chicken Shawarma",
+      "description": "Juicy chicken wrapped in pita bread with sauces.",
+      "price": 80,
+      "category": "Snacks",
+      "rating": 4.1,
+      "imageUrl": "https://www.shutterstock.com/image-photo/doner-kebab-shawarma-isolated-on-600nw-2029580117.jpg",
+      "available": true,
+      "stock":24
+    },
+    {
+      "id": 8,
+      "name": "Mango Lassi",
+      "description": "Refreshing yogurt drink blended with ripe mango.",
+      "price": 60,
+      "category": "Beverages",
+      "rating": 4.3,
+      "imageUrl": "https://img.freepik.com/premium-photo/mango-lassi-parfait-isolated-white-background_787273-7888.jpg",
+      "available": true,
+      "stock":18
+    },
+      {
+      "id": 9,
+      "name": "Chilli Paneer",
+      "description": "Spicy Indo-Chinese style paneer starter.",
+      "price": 120,
+      "category": "Starter",
+      "rating": 4.0,
+      "imageUrl": "https://img.freepik.com/premium-photo/chilli-paneer-illustration-white-background_894067-16682.jpg?w=360",
+      "available": false,
+      "stock":150
+    }
+    
+    ]}
+
+
