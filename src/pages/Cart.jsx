@@ -1,6 +1,6 @@
 import { useDispatch,useSelector } from "react-redux"
-import { addtocart, removefromcart,incrementQty,decrementQty } from "../redux/cartslice"
-import { useEffect } from "react"
+import {  removefromcart,incrementQty,decrementQty } from "../redux/cartslice"
+
 import Navbarguest from "../componants/Navbarguest";
 
 
@@ -14,11 +14,10 @@ import Navbarguest from "../componants/Navbarguest";
 
 const Cart = () => {
   const cart = useSelector((state) => state.cart)
-  const products = useSelector((state) => state.products)
+  
   const dispatch=useDispatch()
 
-  const getcartqty = (id) =>
-    cart?.find((prod) => prod?.id === id)?.stock || 0
+  
 
    const totalQuantity = cart.reduce((sum, item) => sum + (item.count || 0), 0);
   const totalPrice = cart.reduce(
@@ -35,7 +34,7 @@ const Cart = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 ">
     
       {cart?.map((item) => {
-        const cart_quantity = getcartqty(item.id)
+        
         const { id,name,price,category ,description,imageUrl,count,stock} = item
        
 

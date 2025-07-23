@@ -10,7 +10,7 @@ import Deletebtn from "../componants/Deletebtn"
 
 const Foodlist=()=>{
 
-    const[data,setdata]=useState(jsondata.foodItems  ||[])
+    const[data]=useState(jsondata.foodItems  ||[])
     const products=useSelector((state)=>state.products)
     console.log(data)
     
