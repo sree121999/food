@@ -1,26 +1,20 @@
-<<<<<<< HEAD
+import Loginpage from "./pages/Loginpage";
+import Router from "./routes/Router";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
-import Loginpage from "./pages/Loginpage"
-import Router from "./routes/Router"
-
-const App=()=>{
-  return(
+const App = () => {
+  return (
     <>
-    
-      <title>foode delivery</title>
-    
-    
-    
-    <Router/>
-   
-    
-=======
-const App=()=>{
-  return(
-    <>
->>>>>>> 21876939a92dd38b1e8a883d65f2b6b42d330217
+   <HelmetProvider>
+    <Helmet>
+      <title>Food Delivery</title>
+    </Helmet>
+      
+      <Router />
+      </HelmetProvider>
     </>
   )
 }
-export default App
+
+export default App;
